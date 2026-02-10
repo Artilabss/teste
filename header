@@ -1,0 +1,9 @@
+#nav_logo{
+    font-size: 24px;
+    color: #d63eb5;
+}
+#nav_list {
+    display: flex;
+    list-style: none;
+    gap: 48px;
+}
