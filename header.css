@@ -12,5 +12,10 @@
     gap: 48px;
 }
 i.nav_logo{
-    width: fit-content;
+    width: max-content;
+    color: #392671;
+    text-decoration: none;
+    margin-left: 15px;
+    font-weight: bold;
+    font-family: "Open Sans", sans-serif;
 }
