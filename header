@@ -2,7 +2,7 @@
     font-size: 24px;
     color: #d63eb5;
 }
-#nav_list {
+#nav_a {
     display: flex;
     list-style: none;
     gap: 48px;
