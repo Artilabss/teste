@@ -1,21 +1,47 @@
-<style>
-@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe:ital@0;1&family=Barriecito&family=Barrio&family=Bebas+Neue&family=Libertinus+Mono&family=Lobster&family=Meddon&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Open+Sans:ital,wdth,wght@1,75,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&family=Sevillana&family=Unna:ital,wght@0,400;0,700;1,400;1,700&display=swap');
-</style>
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
 
-#nav_logo{
-    font-size: 24px;
-    color: #d63eb5;
+header {
+  background: #fff;
+  padding: 20px 40px;
 }
-#nav_a {
-    display: flex;
-    list-style: none;
-    gap: 48px;
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
-i.nav_logo{
-    width: max-content;
-    color: #392671;
-    text-decoration: none;
-    margin-left: 15px;
-    font-weight: bold;
-    font-family: "Open Sans", sans-serif;
+
+/* LOGO */
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 28px;
+  font-weight: 700;
+  color: #392671;
+}
+
+.logo i {
+  font-size: 32px;
+  color: #d63eb5;
+}
+
+/* MENU */
+.menu {
+  display: flex;
+  gap: 40px;
+}
+
+.menu a {
+  text-decoration: none;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  color: #392671;
+  transition: 0.3s;
+}
+
+.menu a:hover {
+  color: #d63eb5;
 }
